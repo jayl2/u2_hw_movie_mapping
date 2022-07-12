@@ -2,15 +2,31 @@
   text-align: center;
 }
 
+div{
+  background-color: rgb(146, 145, 140);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.movList{
+  list-style: none; 
+}
 
+img{
+  width: 15%;
+  padding: 20px;
+  background-color: white;
+ 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.movie-list{
+  list-style: none;
 }
 
 .App-header {
